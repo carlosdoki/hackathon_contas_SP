@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC82A07B209C839E0069B8FD /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A07A209C839E0069B8FD /* RoundedButton.swift */; };
+		BC82A07E209C86880069B8FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A07D209C86880069B8FD /* Constants.swift */; };
+		BC82A080209C86AC0069B8FD /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A07F209C86AC0069B8FD /* CircleView.swift */; };
+		BC82A084209C93AB0069B8FD /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A083209C93AB0069B8FD /* TextField.swift */; };
 		BCE29B472090F429000752A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE29B462090F429000752A8 /* AppDelegate.swift */; };
-		BCE29B492090F429000752A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE29B482090F429000752A8 /* ViewController.swift */; };
+		BCE29B492090F429000752A8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE29B482090F429000752A8 /* LoginVC.swift */; };
 		BCE29B4C2090F429000752A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE29B4A2090F429000752A8 /* Main.storyboard */; };
 		BCE29B4E2090F42B000752A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE29B4D2090F42B000752A8 /* Assets.xcassets */; };
 		BCE29B512090F42B000752A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE29B4F2090F42B000752A8 /* LaunchScreen.storyboard */; };
+		BCF9D87B20938EB30008BEF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCF9D87A20938EB30008BEF8 /* GoogleService-Info.plist */; };
+		C60795C19112D0C265EE2F87 /* Pods_Hackathon_Contas_SP_2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C198C52A2A0FB511A2ED15 /* Pods_Hackathon_Contas_SP_2018.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85C198C52A2A0FB511A2ED15 /* Pods_Hackathon_Contas_SP_2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon_Contas_SP_2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		949873D32ED5B55D7EDF4D98 /* Pods-Hackathon_Contas_SP_2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon_Contas_SP_2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon_Contas_SP_2018/Pods-Hackathon_Contas_SP_2018.release.xcconfig"; sourceTree = "<group>"; };
+		BC82A07A209C839E0069B8FD /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		BC82A07D209C86880069B8FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BC82A07F209C86AC0069B8FD /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		BC82A083209C93AB0069B8FD /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		BCD926EF2093760900CB9489 /* Hackathon_Contas_SP_2018.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hackathon_Contas_SP_2018.entitlements; sourceTree = "<group>"; };
 		BCE29B432090F429000752A8 /* Hackathon_Contas_SP_2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon_Contas_SP_2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE29B462090F429000752A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCE29B482090F429000752A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCE29B482090F429000752A8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BCE29B4B2090F429000752A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCE29B4D2090F42B000752A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCE29B502090F42B000752A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCE29B522090F42B000752A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF9D87A20938EB30008BEF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C7951F2AFF0A4A8366B10C19 /* Pods-Hackathon_Contas_SP_2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon_Contas_SP_2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon_Contas_SP_2018/Pods-Hackathon_Contas_SP_2018.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +44,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60795C19112D0C265EE2F87 /* Pods_Hackathon_Contas_SP_2018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61BFDCDE8E0F46565EC935AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7951F2AFF0A4A8366B10C19 /* Pods-Hackathon_Contas_SP_2018.debug.xcconfig */,
+				949873D32ED5B55D7EDF4D98 /* Pods-Hackathon_Contas_SP_2018.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC82A079209C838A0069B8FD /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				BC82A07A209C839E0069B8FD /* RoundedButton.swift */,
+				BC82A07F209C86AC0069B8FD /* CircleView.swift */,
+				BC82A083209C93AB0069B8FD /* TextField.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		BC82A07C209C866F0069B8FD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BC82A07D209C86880069B8FD /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BC82A081209C86C00069B8FD /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		BC82A082209C86CB0069B8FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCE29B482090F429000752A8 /* LoginVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		BCE29B3A2090F429000752A8 = {
 			isa = PBXGroup;
 			children = (
 				BCE29B452090F429000752A8 /* Hackathon_Contas_SP_2018 */,
 				BCE29B442090F429000752A8 /* Products */,
+				61BFDCDE8E0F46565EC935AB /* Pods */,
+				F3F8BE3EA9B0096EEB43C8E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +114,27 @@
 		BCE29B452090F429000752A8 /* Hackathon_Contas_SP_2018 */ = {
 			isa = PBXGroup;
 			children = (
+				BC82A082209C86CB0069B8FD /* Controller */,
+				BC82A081209C86C00069B8FD /* Datasource */,
+				BC82A07C209C866F0069B8FD /* Util */,
+				BC82A079209C838A0069B8FD /* Custom */,
+				BCD926EF2093760900CB9489 /* Hackathon_Contas_SP_2018.entitlements */,
 				BCE29B462090F429000752A8 /* AppDelegate.swift */,
-				BCE29B482090F429000752A8 /* ViewController.swift */,
 				BCE29B4A2090F429000752A8 /* Main.storyboard */,
 				BCE29B4D2090F42B000752A8 /* Assets.xcassets */,
 				BCE29B4F2090F42B000752A8 /* LaunchScreen.storyboard */,
 				BCE29B522090F42B000752A8 /* Info.plist */,
+				BCF9D87A20938EB30008BEF8 /* GoogleService-Info.plist */,
 			);
 			path = Hackathon_Contas_SP_2018;
+			sourceTree = "<group>";
+		};
+		F3F8BE3EA9B0096EEB43C8E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85C198C52A2A0FB511A2ED15 /* Pods_Hackathon_Contas_SP_2018.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCE29B552090F42B000752A8 /* Build configuration list for PBXNativeTarget "Hackathon_Contas_SP_2018" */;
 			buildPhases = (
+				78F6B1983C37D22DE50CF352 /* [CP] Check Pods Manifest.lock */,
 				BCE29B3F2090F429000752A8 /* Sources */,
 				BCE29B402090F429000752A8 /* Frameworks */,
 				BCE29B412090F429000752A8 /* Resources */,
+				9BA7A33B409802F67DA5E48C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +171,11 @@
 				TargetAttributes = {
 					BCE29B422090F429000752A8 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE29B512090F42B000752A8 /* LaunchScreen.storyboard in Resources */,
+				BCF9D87B20938EB30008BEF8 /* GoogleService-Info.plist in Resources */,
 				BCE29B4E2090F42B000752A8 /* Assets.xcassets in Resources */,
 				BCE29B4C2090F429000752A8 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +211,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78F6B1983C37D22DE50CF352 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hackathon_Contas_SP_2018-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA7A33B409802F67DA5E48C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon_Contas_SP_2018/Pods-Hackathon_Contas_SP_2018-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon_Contas_SP_2018/Pods-Hackathon_Contas_SP_2018-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCE29B3F2090F429000752A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE29B492090F429000752A8 /* ViewController.swift in Sources */,
+				BCE29B492090F429000752A8 /* LoginVC.swift in Sources */,
+				BC82A080209C86AC0069B8FD /* CircleView.swift in Sources */,
+				BC82A07B209C839E0069B8FD /* RoundedButton.swift in Sources */,
+				BC82A084209C93AB0069B8FD /* TextField.swift in Sources */,
 				BCE29B472090F429000752A8 /* AppDelegate.swift in Sources */,
+				BC82A07E209C86880069B8FD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,15 +414,15 @@
 		};
 		BCE29B562090F42B000752A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7951F2AFF0A4A8366B10C19 /* Pods-Hackathon_Contas_SP_2018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hackathon_Contas_SP_2018/Hackathon_Contas_SP_2018.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7984M9FF87;
 				INFOPLIST_FILE = Hackathon_Contas_SP_2018/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlosdoki.Hackathon-Contas-SP-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -296,15 +432,15 @@
 		};
 		BCE29B572090F42B000752A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949873D32ED5B55D7EDF4D98 /* Pods-Hackathon_Contas_SP_2018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hackathon_Contas_SP_2018/Hackathon_Contas_SP_2018.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7984M9FF87;
 				INFOPLIST_FILE = Hackathon_Contas_SP_2018/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlosdoki.Hackathon-Contas-SP-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

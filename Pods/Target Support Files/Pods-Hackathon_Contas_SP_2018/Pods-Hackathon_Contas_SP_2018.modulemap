@@ -1,0 +1,6 @@
+framework module Pods_Hackathon_Contas_SP_2018 {
+  umbrella header "Pods-Hackathon_Contas_SP_2018-umbrella.h"
+
+  export *
+  module * { export * }
+}
