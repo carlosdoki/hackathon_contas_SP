@@ -11,12 +11,20 @@
 		BC82A07E209C86880069B8FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A07D209C86880069B8FD /* Constants.swift */; };
 		BC82A080209C86AC0069B8FD /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A07F209C86AC0069B8FD /* CircleView.swift */; };
 		BC82A084209C93AB0069B8FD /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A083209C93AB0069B8FD /* TextField.swift */; };
+		BC82A086209E026F0069B8FD /* LicitacaoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A085209E026F0069B8FD /* LicitacaoCell.swift */; };
+		BC82A089209E02CA0069B8FD /* LicitacaoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A088209E02CA0069B8FD /* LicitacaoVC.swift */; };
+		BC82A08B209E09540069B8FD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A08A209E09540069B8FD /* DataService.swift */; };
+		BC82A08D209E09A20069B8FD /* Licitacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A08C209E09A20069B8FD /* Licitacoes.swift */; };
+		BC82A08F209E106C0069B8FD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A08E209E106C0069B8FD /* Post.swift */; };
+		BCCB006F209E23B3003F7BE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCCB006E209E23B3003F7BE8 /* GoogleService-Info.plist */; };
+		BCCB0071209E30F4003F7BE8 /* PostsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB0070209E30F4003F7BE8 /* PostsVC.swift */; };
+		BCCB0073209E3132003F7BE8 /* PostsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB0072209E3132003F7BE8 /* PostsCell.swift */; };
+		BCCB0078209E3CB9003F7BE8 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB0077209E3CB9003F7BE8 /* ChatVC.swift */; };
 		BCE29B472090F429000752A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE29B462090F429000752A8 /* AppDelegate.swift */; };
 		BCE29B492090F429000752A8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE29B482090F429000752A8 /* LoginVC.swift */; };
 		BCE29B4C2090F429000752A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE29B4A2090F429000752A8 /* Main.storyboard */; };
 		BCE29B4E2090F42B000752A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE29B4D2090F42B000752A8 /* Assets.xcassets */; };
 		BCE29B512090F42B000752A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE29B4F2090F42B000752A8 /* LaunchScreen.storyboard */; };
-		BCF9D87B20938EB30008BEF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCF9D87A20938EB30008BEF8 /* GoogleService-Info.plist */; };
 		C60795C19112D0C265EE2F87 /* Pods_Hackathon_Contas_SP_2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C198C52A2A0FB511A2ED15 /* Pods_Hackathon_Contas_SP_2018.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +35,16 @@
 		BC82A07D209C86880069B8FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BC82A07F209C86AC0069B8FD /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		BC82A083209C93AB0069B8FD /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		BC82A085209E026F0069B8FD /* LicitacaoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicitacaoCell.swift; sourceTree = "<group>"; };
+		BC82A088209E02CA0069B8FD /* LicitacaoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicitacaoVC.swift; sourceTree = "<group>"; };
+		BC82A08A209E09540069B8FD /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		BC82A08C209E09A20069B8FD /* Licitacoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Licitacoes.swift; sourceTree = "<group>"; };
+		BC82A08E209E106C0069B8FD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BCCB006E209E23B3003F7BE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCCB0070209E30F4003F7BE8 /* PostsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsVC.swift; sourceTree = "<group>"; };
+		BCCB0072209E3132003F7BE8 /* PostsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsCell.swift; sourceTree = "<group>"; };
+		BCCB0074209E3BE1003F7BE8 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		BCCB0077209E3CB9003F7BE8 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		BCD926EF2093760900CB9489 /* Hackathon_Contas_SP_2018.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hackathon_Contas_SP_2018.entitlements; sourceTree = "<group>"; };
 		BCE29B432090F429000752A8 /* Hackathon_Contas_SP_2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon_Contas_SP_2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE29B462090F429000752A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +53,6 @@
 		BCE29B4D2090F42B000752A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCE29B502090F42B000752A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCE29B522090F42B000752A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCF9D87A20938EB30008BEF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C7951F2AFF0A4A8366B10C19 /* Pods-Hackathon_Contas_SP_2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon_Contas_SP_2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon_Contas_SP_2018/Pods-Hackathon_Contas_SP_2018.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				BC82A07D209C86880069B8FD /* Constants.swift */,
+				BC82A08A209E09540069B8FD /* DataService.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -81,6 +99,8 @@
 		BC82A081209C86C00069B8FD /* Datasource */ = {
 			isa = PBXGroup;
 			children = (
+				BC82A08C209E09A20069B8FD /* Licitacoes.swift */,
+				BC82A08E209E106C0069B8FD /* Post.swift */,
 			);
 			path = Datasource;
 			sourceTree = "<group>";
@@ -89,6 +109,11 @@
 			isa = PBXGroup;
 			children = (
 				BCE29B482090F429000752A8 /* LoginVC.swift */,
+				BC82A085209E026F0069B8FD /* LicitacaoCell.swift */,
+				BC82A088209E02CA0069B8FD /* LicitacaoVC.swift */,
+				BCCB0070209E30F4003F7BE8 /* PostsVC.swift */,
+				BCCB0072209E3132003F7BE8 /* PostsCell.swift */,
+				BCCB0077209E3CB9003F7BE8 /* ChatVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -124,7 +149,8 @@
 				BCE29B4D2090F42B000752A8 /* Assets.xcassets */,
 				BCE29B4F2090F42B000752A8 /* LaunchScreen.storyboard */,
 				BCE29B522090F42B000752A8 /* Info.plist */,
-				BCF9D87A20938EB30008BEF8 /* GoogleService-Info.plist */,
+				BCCB006E209E23B3003F7BE8 /* GoogleService-Info.plist */,
+				BCCB0074209E3BE1003F7BE8 /* Bridging-Header.h */,
 			);
 			path = Hackathon_Contas_SP_2018;
 			sourceTree = "<group>";
@@ -173,7 +199,7 @@
 						CreatedOnToolsVersion = 9.3;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -203,7 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE29B512090F42B000752A8 /* LaunchScreen.storyboard in Resources */,
-				BCF9D87B20938EB30008BEF8 /* GoogleService-Info.plist in Resources */,
+				BCCB006F209E23B3003F7BE8 /* GoogleService-Info.plist in Resources */,
 				BCE29B4E2090F42B000752A8 /* Assets.xcassets in Resources */,
 				BCE29B4C2090F429000752A8 /* Main.storyboard in Resources */,
 			);
@@ -240,6 +266,8 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -250,6 +278,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -267,11 +297,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC82A08B209E09540069B8FD /* DataService.swift in Sources */,
+				BCCB0073209E3132003F7BE8 /* PostsCell.swift in Sources */,
+				BC82A08F209E106C0069B8FD /* Post.swift in Sources */,
+				BCCB0071209E30F4003F7BE8 /* PostsVC.swift in Sources */,
+				BC82A08D209E09A20069B8FD /* Licitacoes.swift in Sources */,
 				BCE29B492090F429000752A8 /* LoginVC.swift in Sources */,
 				BC82A080209C86AC0069B8FD /* CircleView.swift in Sources */,
 				BC82A07B209C839E0069B8FD /* RoundedButton.swift in Sources */,
+				BCCB0078209E3CB9003F7BE8 /* ChatVC.swift in Sources */,
 				BC82A084209C93AB0069B8FD /* TextField.swift in Sources */,
 				BCE29B472090F429000752A8 /* AppDelegate.swift in Sources */,
+				BC82A086209E026F0069B8FD /* LicitacaoCell.swift in Sources */,
+				BC82A089209E02CA0069B8FD /* LicitacaoVC.swift in Sources */,
 				BC82A07E209C86880069B8FD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,14 +455,17 @@
 			baseConfigurationReference = C7951F2AFF0A4A8366B10C19 /* Pods-Hackathon_Contas_SP_2018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Hackathon_Contas_SP_2018/Hackathon_Contas_SP_2018.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7984M9FF87;
 				INFOPLIST_FILE = Hackathon_Contas_SP_2018/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlosdoki.Hackathon-Contas-SP-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hackathon_Contas_SP_2018/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -435,14 +476,17 @@
 			baseConfigurationReference = 949873D32ED5B55D7EDF4D98 /* Pods-Hackathon_Contas_SP_2018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Hackathon_Contas_SP_2018/Hackathon_Contas_SP_2018.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7984M9FF87;
 				INFOPLIST_FILE = Hackathon_Contas_SP_2018/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlosdoki.Hackathon-Contas-SP-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hackathon_Contas_SP_2018/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

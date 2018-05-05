@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "LicitacaoVC.tableView(_:numberOfRowsInSection:):LicitacaoVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "licitacao.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LicitacaoCell.configureCell(licitacoes:):LicitacaoCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "licitacoes.valorEstimado">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginVC.btnEntrarPressed(_:):LoginVC.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LicitacaoVC.viewDidLoad():LicitacaoVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DataService.ds.REF_LICITACOES">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LicitacaoVC.viewDidLoad():LicitacaoVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "licitacao.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

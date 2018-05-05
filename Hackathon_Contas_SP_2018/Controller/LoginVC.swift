@@ -30,7 +30,7 @@ class LoginVC: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         if let user = KeychainWrapper.standard.string(forKey: KEY_UID) {
             userUUID = user
-            print("DOKI: ID found in keychain")
+            print("DOKI: ID found in keychain: \(user)")
             performSegue(withIdentifier: "telaPrincipal", sender: nil)
         } else {
         }

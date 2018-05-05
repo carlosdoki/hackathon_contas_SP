@@ -15,4 +15,5 @@ target 'Hackathon_Contas_SP_2018' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'Firebase/Messaging'
+  pod 'JSQMessagesViewController'
 end
