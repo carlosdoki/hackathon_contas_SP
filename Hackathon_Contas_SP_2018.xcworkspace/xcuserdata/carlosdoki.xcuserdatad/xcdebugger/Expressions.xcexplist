@@ -3,10 +3,10 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "LicitacaoVC.tableView(_:numberOfRowsInSection:):LicitacaoVC.swift">
+         contextName = "LicitacaoVC.viewDidLoad():LicitacaoVC.swift">
          <PersistentStrings>
             <PersistentString
-               value = "licitacao.count">
+               value = "DataService.ds.REF_LICITACOES">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -22,18 +22,29 @@
          contextName = "LoginVC.btnEntrarPressed(_:):LoginVC.swift">
       </ContextState>
       <ContextState
-         contextName = "LicitacaoVC.viewDidLoad():LicitacaoVC.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "DataService.ds.REF_LICITACOES">
-            </PersistentString>
-         </PersistentStrings>
+         contextName = "LicitacaoVC.tableView(_:didSelectRowAt:):LicitacaoVC.swift">
       </ContextState>
       <ContextState
          contextName = "closure #1 in LicitacaoVC.viewDidLoad():LicitacaoVC.swift">
          <PersistentStrings>
             <PersistentString
                value = "licitacao.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LicitacaoVC.tableView(_:numberOfRowsInSection:):LicitacaoVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "licitacao.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ChatVC.viewDidLoad():ChatVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "postKey">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

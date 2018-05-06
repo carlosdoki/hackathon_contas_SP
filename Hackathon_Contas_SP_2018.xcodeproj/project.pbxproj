@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC503907209E943D000402D0 /* LicitacaoDetalheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC503906209E943D000402D0 /* LicitacaoDetalheVC.swift */; };
 		BC82A07B209C839E0069B8FD /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A07A209C839E0069B8FD /* RoundedButton.swift */; };
 		BC82A07E209C86880069B8FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A07D209C86880069B8FD /* Constants.swift */; };
 		BC82A080209C86AC0069B8FD /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A07F209C86AC0069B8FD /* CircleView.swift */; };
@@ -20,10 +21,10 @@
 		BCCB0071209E30F4003F7BE8 /* PostsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB0070209E30F4003F7BE8 /* PostsVC.swift */; };
 		BCCB0073209E3132003F7BE8 /* PostsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB0072209E3132003F7BE8 /* PostsCell.swift */; };
 		BCCB0078209E3CB9003F7BE8 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB0077209E3CB9003F7BE8 /* ChatVC.swift */; };
+		BCCB007A209E87C4003F7BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCB0079209E87C4003F7BE8 /* Assets.xcassets */; };
 		BCE29B472090F429000752A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE29B462090F429000752A8 /* AppDelegate.swift */; };
 		BCE29B492090F429000752A8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE29B482090F429000752A8 /* LoginVC.swift */; };
 		BCE29B4C2090F429000752A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE29B4A2090F429000752A8 /* Main.storyboard */; };
-		BCE29B4E2090F42B000752A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE29B4D2090F42B000752A8 /* Assets.xcassets */; };
 		BCE29B512090F42B000752A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE29B4F2090F42B000752A8 /* LaunchScreen.storyboard */; };
 		C60795C19112D0C265EE2F87 /* Pods_Hackathon_Contas_SP_2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C198C52A2A0FB511A2ED15 /* Pods_Hackathon_Contas_SP_2018.framework */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		85C198C52A2A0FB511A2ED15 /* Pods_Hackathon_Contas_SP_2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon_Contas_SP_2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		949873D32ED5B55D7EDF4D98 /* Pods-Hackathon_Contas_SP_2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon_Contas_SP_2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon_Contas_SP_2018/Pods-Hackathon_Contas_SP_2018.release.xcconfig"; sourceTree = "<group>"; };
+		BC503906209E943D000402D0 /* LicitacaoDetalheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicitacaoDetalheVC.swift; sourceTree = "<group>"; };
 		BC82A07A209C839E0069B8FD /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		BC82A07D209C86880069B8FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BC82A07F209C86AC0069B8FD /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
@@ -45,12 +47,12 @@
 		BCCB0072209E3132003F7BE8 /* PostsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsCell.swift; sourceTree = "<group>"; };
 		BCCB0074209E3BE1003F7BE8 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		BCCB0077209E3CB9003F7BE8 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		BCCB0079209E87C4003F7BE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCD926EF2093760900CB9489 /* Hackathon_Contas_SP_2018.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hackathon_Contas_SP_2018.entitlements; sourceTree = "<group>"; };
-		BCE29B432090F429000752A8 /* Hackathon_Contas_SP_2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon_Contas_SP_2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE29B432090F429000752A8 /* LiciTae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiciTae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE29B462090F429000752A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCE29B482090F429000752A8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BCE29B4B2090F429000752A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BCE29B4D2090F42B000752A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCE29B502090F42B000752A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCE29B522090F42B000752A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7951F2AFF0A4A8366B10C19 /* Pods-Hackathon_Contas_SP_2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon_Contas_SP_2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon_Contas_SP_2018/Pods-Hackathon_Contas_SP_2018.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				BCCB0070209E30F4003F7BE8 /* PostsVC.swift */,
 				BCCB0072209E3132003F7BE8 /* PostsCell.swift */,
 				BCCB0077209E3CB9003F7BE8 /* ChatVC.swift */,
+				BC503906209E943D000402D0 /* LicitacaoDetalheVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -131,7 +134,7 @@
 		BCE29B442090F429000752A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCE29B432090F429000752A8 /* Hackathon_Contas_SP_2018.app */,
+				BCE29B432090F429000752A8 /* LiciTae.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,11 +149,11 @@
 				BCD926EF2093760900CB9489 /* Hackathon_Contas_SP_2018.entitlements */,
 				BCE29B462090F429000752A8 /* AppDelegate.swift */,
 				BCE29B4A2090F429000752A8 /* Main.storyboard */,
-				BCE29B4D2090F42B000752A8 /* Assets.xcassets */,
 				BCE29B4F2090F42B000752A8 /* LaunchScreen.storyboard */,
 				BCE29B522090F42B000752A8 /* Info.plist */,
 				BCCB006E209E23B3003F7BE8 /* GoogleService-Info.plist */,
 				BCCB0074209E3BE1003F7BE8 /* Bridging-Header.h */,
+				BCCB0079209E87C4003F7BE8 /* Assets.xcassets */,
 			);
 			path = Hackathon_Contas_SP_2018;
 			sourceTree = "<group>";
@@ -182,7 +185,7 @@
 			);
 			name = Hackathon_Contas_SP_2018;
 			productName = Hackathon_Contas_SP_2018;
-			productReference = BCE29B432090F429000752A8 /* Hackathon_Contas_SP_2018.app */;
+			productReference = BCE29B432090F429000752A8 /* LiciTae.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +233,7 @@
 			files = (
 				BCE29B512090F42B000752A8 /* LaunchScreen.storyboard in Resources */,
 				BCCB006F209E23B3003F7BE8 /* GoogleService-Info.plist in Resources */,
-				BCE29B4E2090F42B000752A8 /* Assets.xcassets in Resources */,
+				BCCB007A209E87C4003F7BE8 /* Assets.xcassets in Resources */,
 				BCE29B4C2090F429000752A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +305,7 @@
 				BC82A08F209E106C0069B8FD /* Post.swift in Sources */,
 				BCCB0071209E30F4003F7BE8 /* PostsVC.swift in Sources */,
 				BC82A08D209E09A20069B8FD /* Licitacoes.swift in Sources */,
+				BC503907209E943D000402D0 /* LicitacaoDetalheVC.swift in Sources */,
 				BCE29B492090F429000752A8 /* LoginVC.swift in Sources */,
 				BC82A080209C86AC0069B8FD /* CircleView.swift in Sources */,
 				BC82A07B209C839E0069B8FD /* RoundedButton.swift in Sources */,
@@ -464,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlosdoki.Hackathon-Contas-SP-2018";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LiciTae;
 				SWIFT_OBJC_BRIDGING_HEADER = "Hackathon_Contas_SP_2018/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,7 +489,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlosdoki.Hackathon-Contas-SP-2018";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LiciTae;
 				SWIFT_OBJC_BRIDGING_HEADER = "Hackathon_Contas_SP_2018/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

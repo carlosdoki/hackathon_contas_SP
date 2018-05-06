@@ -35,9 +35,9 @@ class LicitacaoCell: UITableViewCell {
 
     func configureCell(licitacoes: Licitacoes) {
         self.licitacao = licitacoes
-        nroLbl.text = licitacoes.nro
-//        dtPublicacaoLbl.text = licitacoes.dataPublicacao
-//        dtPropostaLbl.text = licitacoes.dataProposta
+        nroLbl.text = "OC: \(licitacoes.nro)"
+        dtPublicacaoLbl.text = licitacoes.situacao
+        dtPropostaLbl.text = licitacoes.dataEncerramento
         materialLbl.text = licitacoes.material
         orgaoLbl.text = licitacoes.orgao
         valorEstimadoLbl.text = String(licitacoes.valorEstimado)

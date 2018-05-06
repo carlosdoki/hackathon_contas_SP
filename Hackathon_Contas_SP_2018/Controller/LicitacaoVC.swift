@@ -13,6 +13,8 @@ import SwiftKeychainWrapper
 class LicitacaoVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UINavigationControllerDelegate {
     
     @IBOutlet weak var licitacoesTV: UITableView!
+    @IBOutlet weak var carregandoV: UIView!
+    @IBOutlet weak var indicadorIV: UIActivityIndicatorView!
     
     var licitacao = [Licitacoes]()
     
@@ -22,6 +24,7 @@ class LicitacaoVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
         licitacoesTV.dataSource = self
         
         DataService.ds.REF_LICITACOES.observe(.value, with: { (snapshot) in
+//        DataService.ds.REF_LICITACOES.queryOrdered(byChild: "fornecedores").queryEqual(toValue: KeychainWrapper.standard.string(forKey: KEY_UID)!).observe(.value, with: { (snapshot) in
             self.licitacao.removeAll()
             if let snapshot = snapshot.children.allObjects as? [DataSnapshot] {
                 print(snapshot)
@@ -35,7 +38,11 @@ class LicitacaoVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
                 }
             }
             self.licitacoesTV.reloadData()
+            self.carregandoV.isHidden = true
+            self.indicadorIV.stopAnimating()
         })
+        
+
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -57,8 +64,9 @@ class LicitacaoVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let controller = storyboard?.instantiateViewController(withIdentifier: "PostVC") as! PostsVC
-        controller.postKey = KeychainWrapper.standard.string(forKey: KEY_UID)! 
+        let controller = storyboard?.instantiateViewController(withIdentifier: "LicitacaoDetalheVC") as! LicitacaoDetalheVC
+        controller.postKey = licitacao[indexPath.row].postKey
+        controller.nroLiticacao = licitacao[indexPath.row].nro
         self.present(controller, animated: true, completion: nil)
     }
 }

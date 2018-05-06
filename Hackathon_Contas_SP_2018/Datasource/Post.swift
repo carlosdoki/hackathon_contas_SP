@@ -43,7 +43,7 @@ class Post {
             self._postedDate = postedDate
         }
         
-        _postRef = DataService.ds.REF_POSTS.child(_postKey)
+//        _postRef = DataService.ds.REF_POSTS.child(_postKey)
     }
 }
 

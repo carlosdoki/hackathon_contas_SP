@@ -19,7 +19,7 @@ class DataService {
     
     // DB References
     private var _REF_BASE = DB_BASE
-    private var _REF_POSTS = DB_BASE.child("licitacao").child("post")
+    //private var _REF_POSTS = DB_BASE.child("licitacao").child("post")
     private var _REF_USERS = DB_BASE.child("users")
     private var _REF_LICITACOES = DB_BASE.child("licitacao")
     
@@ -31,9 +31,9 @@ class DataService {
         return _REF_BASE
     }
     
-    var REF_POSTS: DatabaseReference {
-        return _REF_POSTS
-    }
+//    var REF_POSTS: DatabaseReference {
+//        return _REF_POSTS
+//    }
     
     var REF_USERS: DatabaseReference {
         return _REF_USERS

@@ -12,11 +12,11 @@ import Firebase
 class Licitacoes {
     private var _postKey: String!
     private var _nro : String!
-    private var _dataPublicacao: Double!
-    private var _dataProposta : Double!
+    private var _dataEncerramento : String!
     private var _material : String!
     private var _orgao : String!
     private var _valorEstimado : Double!
+    private var _situacao: String!
     private var _postRef : DatabaseReference!
     private var _views : Int!
     private var _star : Int!
@@ -27,15 +27,15 @@ class Licitacoes {
     }
     
     var nro: String {
-        return _nro
+        if _nro != nil {
+            return _nro
+        } else {
+            return ""
+        }
     }
-    
-    var dataPublicacao: Double! {
-        return _dataPublicacao
-    }
-    
-    var dataProposta: Double! {
-        return _dataProposta
+
+    var dataEncerramento: String! {
+        return _dataEncerramento
     }
     
     var material: String! {
@@ -62,6 +62,10 @@ class Licitacoes {
         return _link
     }
     
+    var situacao: String! {
+        return _situacao
+    }
+    
     init(nro: String) {
         self._nro = nro
 //        self._imageUrl = imageUrl
@@ -75,12 +79,8 @@ class Licitacoes {
             self._nro = nro
         }
         
-        if let dataPublicacao = postData["dataPublicacao"] as? Double {
-            self._dataPublicacao = dataPublicacao
-        }
-        
-        if let dataProposta = postData["dataProposta"] as? Double {
-            self._dataProposta = dataProposta
+        if let dataEncerramento = postData["dataEncerramento"] as? String {
+            self._dataEncerramento = dataEncerramento
         }
 
         if let material = postData["material"] as? String {
@@ -105,6 +105,10 @@ class Licitacoes {
         
         if let link = postData["link"] as? String {
             self._link = link
+        }
+        
+        if let situacao = postData["situacao"] as? String {
+            self._situacao = situacao
         }
         
         _postRef = DataService.ds.REF_LICITACOES.child(_postKey)
