@@ -22,6 +22,8 @@ class DataService {
     //private var _REF_POSTS = DB_BASE.child("licitacao").child("post")
     private var _REF_USERS = DB_BASE.child("users")
     private var _REF_LICITACOES = DB_BASE.child("licitacao")
+    private var _REF_MATERIAIS = DB_BASE.child("materiais")
+    private var _REF_FORNECEDORES = DB_BASE.child("fornecedores")
     
     // Storage References
     private var _REF_POST_IMAGES=STORAGE_BASE.child("post-pics")
@@ -31,9 +33,9 @@ class DataService {
         return _REF_BASE
     }
     
-//    var REF_POSTS: DatabaseReference {
-//        return _REF_POSTS
-//    }
+    var REF_FORNECEDORES: DatabaseReference {
+        return _REF_FORNECEDORES
+    }
     
     var REF_USERS: DatabaseReference {
         return _REF_USERS
@@ -43,6 +45,10 @@ class DataService {
         return _REF_LICITACOES
     }
 
+    var REF_MATERIAIS: DatabaseReference {
+        return _REF_MATERIAIS
+    }
+    
     var REF_POST_IMAGES: StorageReference {
         return _REF_POST_IMAGES
     }

@@ -8,15 +8,29 @@
             <PersistentString
                value = "DataService.ds.REF_LICITACOES">
             </PersistentString>
+            <PersistentString
+               value = "KeychainWrapper.standard.string(forKey: KEY_UID)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LicitacaoCell.configureCell(licitacoes:):LicitacaoCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "snap.value">
+            </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "LicitacaoCell.configureCell(licitacoes:):LicitacaoCell.swift">
          <PersistentStrings>
             <PersistentString
-               value = "licitacoes.valorEstimado">
+               value = "licitacoes.material">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LicitacaoDetalheVC.viewDidLoad():LicitacaoDetalheVC.swift">
       </ContextState>
       <ContextState
          contextName = "LoginVC.btnEntrarPressed(_:):LoginVC.swift">
@@ -28,7 +42,7 @@
          contextName = "closure #1 in LicitacaoVC.viewDidLoad():LicitacaoVC.swift">
          <PersistentStrings>
             <PersistentString
-               value = "licitacao.count">
+               value = "snapshot.children[0].key">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -37,6 +51,14 @@
          <PersistentStrings>
             <PersistentString
                value = "licitacao.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CadastroVC.incluirPressed(_:):CadastroVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dados[&quot;DT_ENCERRAMENTO&quot;] as? String">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

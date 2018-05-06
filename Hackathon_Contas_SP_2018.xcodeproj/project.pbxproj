@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BC503907209E943D000402D0 /* LicitacaoDetalheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC503906209E943D000402D0 /* LicitacaoDetalheVC.swift */; };
+		BC503909209EAAC0000402D0 /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC503908209EAAC0000402D0 /* CadastroVC.swift */; };
+		BC50390B209EAAF1000402D0 /* MaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50390A209EAAF1000402D0 /* MaterialCell.swift */; };
+		BC50390D209EC6FB000402D0 /* Materiais.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50390C209EC6FB000402D0 /* Materiais.swift */; };
 		BC82A07B209C839E0069B8FD /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A07A209C839E0069B8FD /* RoundedButton.swift */; };
 		BC82A07E209C86880069B8FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A07D209C86880069B8FD /* Constants.swift */; };
 		BC82A080209C86AC0069B8FD /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A07F209C86AC0069B8FD /* CircleView.swift */; };
@@ -17,6 +20,7 @@
 		BC82A08B209E09540069B8FD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A08A209E09540069B8FD /* DataService.swift */; };
 		BC82A08D209E09A20069B8FD /* Licitacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A08C209E09A20069B8FD /* Licitacoes.swift */; };
 		BC82A08F209E106C0069B8FD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A08E209E106C0069B8FD /* Post.swift */; };
+		BC950E93209F09440043C1E6 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC950E92209F09440043C1E6 /* Material.swift */; };
 		BCCB006F209E23B3003F7BE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCCB006E209E23B3003F7BE8 /* GoogleService-Info.plist */; };
 		BCCB0071209E30F4003F7BE8 /* PostsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB0070209E30F4003F7BE8 /* PostsVC.swift */; };
 		BCCB0073209E3132003F7BE8 /* PostsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB0072209E3132003F7BE8 /* PostsCell.swift */; };
@@ -33,6 +37,9 @@
 		85C198C52A2A0FB511A2ED15 /* Pods_Hackathon_Contas_SP_2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon_Contas_SP_2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		949873D32ED5B55D7EDF4D98 /* Pods-Hackathon_Contas_SP_2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon_Contas_SP_2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon_Contas_SP_2018/Pods-Hackathon_Contas_SP_2018.release.xcconfig"; sourceTree = "<group>"; };
 		BC503906209E943D000402D0 /* LicitacaoDetalheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicitacaoDetalheVC.swift; sourceTree = "<group>"; };
+		BC503908209EAAC0000402D0 /* CadastroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
+		BC50390A209EAAF1000402D0 /* MaterialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCell.swift; sourceTree = "<group>"; };
+		BC50390C209EC6FB000402D0 /* Materiais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materiais.swift; sourceTree = "<group>"; };
 		BC82A07A209C839E0069B8FD /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		BC82A07D209C86880069B8FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BC82A07F209C86AC0069B8FD /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
@@ -42,6 +49,7 @@
 		BC82A08A209E09540069B8FD /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		BC82A08C209E09A20069B8FD /* Licitacoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Licitacoes.swift; sourceTree = "<group>"; };
 		BC82A08E209E106C0069B8FD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BC950E92209F09440043C1E6 /* Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
 		BCCB006E209E23B3003F7BE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BCCB0070209E30F4003F7BE8 /* PostsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsVC.swift; sourceTree = "<group>"; };
 		BCCB0072209E3132003F7BE8 /* PostsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsCell.swift; sourceTree = "<group>"; };
@@ -103,6 +111,8 @@
 			children = (
 				BC82A08C209E09A20069B8FD /* Licitacoes.swift */,
 				BC82A08E209E106C0069B8FD /* Post.swift */,
+				BC50390C209EC6FB000402D0 /* Materiais.swift */,
+				BC950E92209F09440043C1E6 /* Material.swift */,
 			);
 			path = Datasource;
 			sourceTree = "<group>";
@@ -117,6 +127,8 @@
 				BCCB0072209E3132003F7BE8 /* PostsCell.swift */,
 				BCCB0077209E3CB9003F7BE8 /* ChatVC.swift */,
 				BC503906209E943D000402D0 /* LicitacaoDetalheVC.swift */,
+				BC503908209EAAC0000402D0 /* CadastroVC.swift */,
+				BC50390A209EAAF1000402D0 /* MaterialCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,10 +313,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC82A08B209E09540069B8FD /* DataService.swift in Sources */,
+				BC950E93209F09440043C1E6 /* Material.swift in Sources */,
 				BCCB0073209E3132003F7BE8 /* PostsCell.swift in Sources */,
 				BC82A08F209E106C0069B8FD /* Post.swift in Sources */,
+				BC50390D209EC6FB000402D0 /* Materiais.swift in Sources */,
 				BCCB0071209E30F4003F7BE8 /* PostsVC.swift in Sources */,
 				BC82A08D209E09A20069B8FD /* Licitacoes.swift in Sources */,
+				BC503909209EAAC0000402D0 /* CadastroVC.swift in Sources */,
 				BC503907209E943D000402D0 /* LicitacaoDetalheVC.swift in Sources */,
 				BCE29B492090F429000752A8 /* LoginVC.swift in Sources */,
 				BC82A080209C86AC0069B8FD /* CircleView.swift in Sources */,
@@ -313,6 +328,7 @@
 				BC82A084209C93AB0069B8FD /* TextField.swift in Sources */,
 				BCE29B472090F429000752A8 /* AppDelegate.swift in Sources */,
 				BC82A086209E026F0069B8FD /* LicitacaoCell.swift in Sources */,
+				BC50390B209EAAF1000402D0 /* MaterialCell.swift in Sources */,
 				BC82A089209E02CA0069B8FD /* LicitacaoVC.swift in Sources */,
 				BC82A07E209C86880069B8FD /* Constants.swift in Sources */,
 			);

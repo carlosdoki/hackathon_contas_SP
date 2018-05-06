@@ -15,6 +15,7 @@ class LicitacaoVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
     @IBOutlet weak var licitacoesTV: UITableView!
     @IBOutlet weak var carregandoV: UIView!
     @IBOutlet weak var indicadorIV: UIActivityIndicatorView!
+    @IBOutlet weak var segentC: UISegmentedControl!
     
     var licitacao = [Licitacoes]()
     
@@ -27,11 +28,12 @@ class LicitacaoVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
 //        DataService.ds.REF_LICITACOES.queryOrdered(byChild: "fornecedores").queryEqual(toValue: KeychainWrapper.standard.string(forKey: KEY_UID)!).observe(.value, with: { (snapshot) in
             self.licitacao.removeAll()
             if let snapshot = snapshot.children.allObjects as? [DataSnapshot] {
-                print(snapshot)
+
                 for snap in snapshot {
-                    print("DOKI: \(snap)")
+
                     if let postDict = snap.value as? Dictionary<String, AnyObject> {
                         let key = snap.key
+
                         let licitacao = Licitacoes(postKey: key, postData: postDict)
                         self.licitacao.append(licitacao)
                     }
@@ -41,8 +43,6 @@ class LicitacaoVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
             self.carregandoV.isHidden = true
             self.indicadorIV.stopAnimating()
         })
-        
-
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -64,9 +64,24 @@ class LicitacaoVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        licitacao[indexPath.row].adjustLikes()
         let controller = storyboard?.instantiateViewController(withIdentifier: "LicitacaoDetalheVC") as! LicitacaoDetalheVC
         controller.postKey = licitacao[indexPath.row].postKey
         controller.nroLiticacao = licitacao[indexPath.row].nro
         self.present(controller, animated: true, completion: nil)
+    }
+    
+    @IBAction func segmentedPressed(_ sender: UISegmentedControl) {
+        if segentC.selectedSegmentIndex == 0 {
+            licitacao.sort(by: {$0.dataEncerramento < $1.dataEncerramento})
+        }
+        if segentC.selectedSegmentIndex == 1 {
+            licitacao.sort(by: {$0.views > $1.views})
+        }
+        if segentC.selectedSegmentIndex == 2 {
+            licitacao.sort(by: {$0.star > $1.star})
+        }
+
+        licitacoesTV.reloadData()
     }
 }

@@ -35,14 +35,26 @@ class LicitacaoCell: UITableViewCell {
 
     func configureCell(licitacoes: Licitacoes) {
         self.licitacao = licitacoes
-        nroLbl.text = "OC: \(licitacoes.nro)"
-        dtPublicacaoLbl.text = licitacoes.situacao
-        dtPropostaLbl.text = licitacoes.dataEncerramento
-        materialLbl.text = licitacoes.material
-        orgaoLbl.text = licitacoes.orgao
-        valorEstimadoLbl.text = String(licitacoes.valorEstimado)
-        vizualizacoesLbl.text = String(licitacoes.views)
-        linkesLbl.text = String(licitacoes.star)
+
+        DataService.ds.REF_MATERIAIS.queryOrdered(byChild: "CODIGO_ITEM").queryEqual(toValue: Int(licitacoes.material)).observe(.value, with: { (snapshot) in
+            if let snapshot = snapshot.children.allObjects as? [DataSnapshot] {
+                for snap in snapshot {
+                    self.valorEstimadoLbl.text = "0"
+                    if let value = snap.value as?  [String : Any] {
+                        if let valor = value["VALOR_UNITARIO_NEGOCIADO"] as? Double {
+                            self.valorEstimadoLbl.text = "R$ \(String(format: "%.2f", valor))"
+                        }
+                    }
+                }
+            }
+            self.nroLbl.text = "OC: \(licitacoes.nro)"
+            self.dtPublicacaoLbl.text = licitacoes.situacao
+            self.dtPropostaLbl.text = licitacoes.dataEncerramento
+            self.materialLbl.text = String(licitacoes.material)
+            self.orgaoLbl.text = licitacoes.orgao
+            self.vizualizacoesLbl.text = String(licitacoes.views)
+            self.linkesLbl.text = String(licitacoes.star)
+        })
     }
     
 }

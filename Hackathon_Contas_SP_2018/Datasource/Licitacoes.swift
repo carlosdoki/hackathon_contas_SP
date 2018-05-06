@@ -13,13 +13,13 @@ class Licitacoes {
     private var _postKey: String!
     private var _nro : String!
     private var _dataEncerramento : String!
-    private var _material : String!
+    private var _material : Int!
     private var _orgao : String!
     private var _valorEstimado : Double!
     private var _situacao: String!
     private var _postRef : DatabaseReference!
     private var _views : Int!
-    private var _star : Int!
+    private var _star : Double!
     private var _link: String!
 
     var postKey: String {
@@ -38,7 +38,7 @@ class Licitacoes {
         return _dataEncerramento
     }
     
-    var material: String! {
+    var material: Int! {
         return _material
     }
     
@@ -54,7 +54,7 @@ class Licitacoes {
         return _views
     }
 
-    var star: Int! {
+    var star: Double! {
         return _star
     }
     
@@ -83,7 +83,7 @@ class Licitacoes {
             self._dataEncerramento = dataEncerramento
         }
 
-        if let material = postData["material"] as? String {
+        if let material = postData["material"] as? Int {
             self._material = material
         }
         
@@ -99,7 +99,7 @@ class Licitacoes {
             self._views = views
         }
         
-        if let star = postData["star"] as? Int {
+        if let star = postData["star"] as? Double {
             self._star = star
         }
         
@@ -114,4 +114,8 @@ class Licitacoes {
         _postRef = DataService.ds.REF_LICITACOES.child(_postKey)
     }
     
+    func adjustLikes() {
+        _views = _views + 1
+        _postRef.child("views").setValue(_views)
+    }
 }
