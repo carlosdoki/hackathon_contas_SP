@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import SwiftKeychainWrapper
 
 class LicitacaoCell: UITableViewCell {
 
@@ -19,8 +20,10 @@ class LicitacaoCell: UITableViewCell {
     @IBOutlet weak var valorEstimadoLbl: UILabel!
     @IBOutlet weak var vizualizacoesLbl: UILabel!
     @IBOutlet weak var linkesLbl: UILabel!
+    @IBOutlet weak var likesImg: UIImageView!
     
     var licitacao: Licitacoes!
+    var likesref : DatabaseReference!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -33,6 +36,16 @@ class LicitacaoCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+//    @IBAction func favTapped(_ sender: Any) {
+//        if likesImg.image == UIImage(named: "star_blank") {
+//            likesref.child("view").setValue(1)
+//            likesImg.image = UIImage(named: "star")
+//        } else {
+//            likesref.child("view").setValue(0)
+//            likesImg.image = UIImage(named: "star_blank")
+//        }
+//    }
+    
     func configureCell(licitacoes: Licitacoes) {
         self.licitacao = licitacoes
 
@@ -55,6 +68,28 @@ class LicitacaoCell: UITableViewCell {
             self.vizualizacoesLbl.text = String(licitacoes.views)
             self.linkesLbl.text = String(licitacoes.star)
         })
+        
+        self.licitacao.postKey
+        likesref = DataService.ds.REF_LICITACOES.child(licitacao.postKey).child("fornecedores").child(KeychainWrapper.standard.string(forKey: KEY_UID)!)
+        likesref.observe(.value, with: { (snapshot) in
+            if let snapshot = snapshot.children.allObjects as? [DataSnapshot] {
+                for snap in snapshot {
+                    if snap.value as? Int == 0 {
+                        self.likesImg.image = UIImage(named: "star_blank")
+                    } else {
+                      self.likesImg.image = UIImage(named: "star")
+                    }
+//                    print(snap.value)
+                }
+            }
+//            if let _ = snapshot.value as? NSNull {
+//                self.likesImg.image = UIImage(named: "star_blank")
+//            } else {
+//                self.likesImg.image = UIImage(named: "star")
+//            }
+        })
+        
+        
     }
     
 }
