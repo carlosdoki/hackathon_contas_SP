@@ -1,26 +1,28 @@
 # HACKATHON CONTAS SP - LICITAÊ
 
+## Participantes
+   - Camila Doki
+   - Carlos Doki
+   - Lucas Armand
+
 ## Desafio
 
-*   Sociedade
+*   Fornecedores
 
-## Nome do time
+## Nome do Time e do Projeto
 
-*   Saltimbancos
-
-## Site da aplicação realizada
-
-*   http://hackaton.w2it.com.br
+*   Time: Devinhos
+*   Feramenta : Licitaê
 
 ---
 
 ## Descrição
 
-Transparência dos gastos públicos e comparação com o benefício gerado.
+Uma plataforma colaborativa para participação de licitações do estado de São Paulo
 
 ## Link para a apresentação
 
-*   https://prezi.com/_rnpror_rgtn/becmaps/
+*   [link?]
 
 ## Github com as tecnologias desenvolvidas
 
@@ -28,11 +30,6 @@ Transparência dos gastos públicos e comparação com o benefício gerado.
 
 ---
 
-*   Willian Gigliotti - wgigliotti@gmail.com
-*   Carlos Henrique Severino - carlos@amlconsulting.com.br
-*   Bruno Leiros - bruno.leiros@amlconsulting.com.br
-*   Alexandre Siqueira - alexandre.siqueira@amlconsulting.com.br
-*   Myrian - michinoguera@gmail.com
 
 <p align="center">
   <img src="https://github.com/RafaelBarbosatec/equipe_HPR_hackathon/blob/master/img_maratona.png" width="250"/>
