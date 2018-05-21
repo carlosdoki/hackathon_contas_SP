@@ -26,7 +26,7 @@ Uma plataforma colaborativa para participação de licitações do estado de Sã
 
 ## Github com as tecnologias desenvolvidas
 
-*   https://github.com/Caik/hackaton-compras-publicas-2018
+*   https://github.com/sefazsp/hackathon_contas_SP
 
 ---
 
